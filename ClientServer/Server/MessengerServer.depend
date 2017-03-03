@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1488527800 source:f:\codeblock\milad\messengerserver\cserver.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"CServer.h"
+
+1488529213 f:\codeblock\milad\messengerserver\cserver.h
+	<iostream>
+	<fstream>
+	<string>
+	"ntlib20.h"
+
+1488529189 f:\codeblock\milad\messengerserver\ntlib20.h
+	<iostream>
+	<winsock2.h>
+
+1488527812 source:f:\codeblock\milad\messengerserver\cserver.h
+	<iostream>
+	<fstream>
+	<string>
+	"ntlib20.h"
+
+1488527823 source:f:\codeblock\milad\messengerserver\servermain.cpp
+	"CServer.h"
+	<WinSock2.h>
+
+1488527800 source:f:\codeblock\milad\server\cserver.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"CServer.h"
+
+1488529213 f:\codeblock\milad\server\cserver.h
+	<iostream>
+	<fstream>
+	<string>
+	"ntlib20.h"
+
+1488529189 f:\codeblock\milad\server\ntlib20.h
+	<iostream>
+	<winsock2.h>
+
+1488527823 source:f:\codeblock\milad\server\servermain.cpp
+	"CServer.h"
+	<WinSock2.h>
+
