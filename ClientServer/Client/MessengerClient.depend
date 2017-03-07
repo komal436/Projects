@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1488622459 source:c:\users\kokumars\desktop\freelancer\projects\clientserver\client\cclient.cpp
+	"CClient.h"
+
+1488536433 c:\users\kokumars\desktop\freelancer\projects\clientserver\client\cclient.h
+	<iostream>
+	<string>
+	"ntlib20.h"
+
+1488536418 c:\users\kokumars\desktop\freelancer\projects\clientserver\client\ntlib20.h
+	<iostream>
+	<winsock2.h>
+
+1488621932 source:c:\users\kokumars\desktop\freelancer\projects\clientserver\client\clientmain.cpp
+	"CMenu.h"
+
+1488711962 c:\users\kokumars\desktop\freelancer\projects\clientserver\client\cmenu.h
+	"CClient.h"
+	<fstream>
+
+1488712538 source:c:\users\kokumars\desktop\freelancer\projects\clientserver\client\cmenu.cpp
+	"CMenu.h"
+	"CClient.h"
+	<sstream>
+	<fstream>
+	<unistd.h>
+

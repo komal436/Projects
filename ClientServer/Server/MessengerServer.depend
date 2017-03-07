@@ -45,3 +45,23 @@
 	"CServer.h"
 	<WinSock2.h>
 
+1488559072 source:c:\users\kokumars\desktop\freelancer\projects\clientserver\server\cserver.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"CServer.h"
+
+1488529213 c:\users\kokumars\desktop\freelancer\projects\clientserver\server\cserver.h
+	<iostream>
+	<fstream>
+	<string>
+	"ntlib20.h"
+
+1488529189 c:\users\kokumars\desktop\freelancer\projects\clientserver\server\ntlib20.h
+	<iostream>
+	<winsock2.h>
+
+1488632508 source:c:\users\kokumars\desktop\freelancer\projects\clientserver\server\servermain.cpp
+	"CServer.h"
+	<WinSock2.h>
+

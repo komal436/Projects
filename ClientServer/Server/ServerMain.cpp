@@ -20,9 +20,9 @@ int main()
 
 	while (ifrunserver) {
 		string msg = _pserver->receiveMsg();
-		cout << "Data: " << msg << endl;
-		fout << "Data from: " << _pserver->getConnIP()
-			<< " Port:" << _pserver->getConnPort() << endl;
+		//cout << "Data: " << msg << endl;
+		//fout << "Data from: " << _pserver->getConnIP()
+			//<< " Port:" << _pserver->getConnPort() << endl;
 		fout << "\"" << msg << "\"" << endl << endl;
 
 		if (_pserver->sendMsg(confirm) == false)

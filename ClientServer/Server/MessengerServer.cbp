@@ -16,7 +16,7 @@
 					<Add option="-DCURL_STATICLIB" />
 				</Compiler>
 				<Linker>
-					<Add library="F:/CodeBlock/Milad/Server/ntlib20.a" />
+					<Add library="C:/Users/kokumars/Desktop/freelancer/Projects/ClientServer/Server/ntlib20.a" />
 					<Add library="ws2_32" />
 				</Linker>
 			</Target>

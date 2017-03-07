@@ -38,6 +38,8 @@
 		</Compiler>
 		<Unit filename="CClient.cpp" />
 		<Unit filename="CClient.h" />
+		<Unit filename="CMenu.cpp" />
+		<Unit filename="CMenu.h" />
 		<Unit filename="ClientMain.cpp" />
 		<Unit filename="ntlib20.h" />
 		<Extensions>

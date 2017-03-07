@@ -1,24 +1,17 @@
-#include "CClient.h"
+#include "CMenu.h"
 
 using namespace std;
 
 int main()
 {
-    _CClient _client("127.0.0.1", 8888);
+    string ServerIPAddr;
+    int port_no;
+    cout << "Enter the ServerIPAddr to connect to: ";
+    cin >> ServerIPAddr;
+    cout << "Enter the Port Num to connect to: ";
+    cin >> port_no;
 
-    _client.initNode();
-    _client.setChannel();
-
-    while (1) {
-        cout << "Enter Message : ";
-        string msg;
-        cin >> msg;
-
-        if (_client.sendMsg(msg) == false) {
-            cout << " Failed to send the Message" << endl;
-            break;
-        }
-        cout << _client.receiveMsg() << endl;
-    }
+    CMenu menu(ServerIPAddr, port_no);
+    menu.ClientMenu();
     return 0;
 }
